@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <meta charset="utf-8" />
+  <title>Home | Leak Studio</title>
+  <link rel="stylesheet" media="all" href="https://static.zdassets.com/hc/assets/application-eee6d8d7fa05e7e79d4f3bfce1e548f7.css" id="stylesheet" />
+  <link rel="stylesheet" media="all" href="https://static.zdassets.com/hc/assets/theming_v1_support-cf937686d5b6669242017892da7bad78.css" />
+  <link rel="stylesheet" type="text/css" href="https://p26.zdassets.com/hc/theming_assets/9331625/360002708674/style.css?digest=4830861067034">
+  <link href="https://admin.leakstudiobd.com/ls-logo.png" rel="icon" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <style type="text/css">
+  .song {
+  display: flex;
+  align-items: center;
+  font-size: 1.1em;
+  font-family: "Roboto";
+}
+.pause {
+  margin-left: 0.5em;
+  cursor:pointer;
+}
+
+  </style>
+</head>
+<body class="">
+
+  <header class="header">
+  <div class="logo">
+    <a title="Home" href="/hc/en-us">
+      <img src="ls-sheba-logo.png" alt=" home page">
+    </a>
+  </div>
+  <div class="nav-wrapper">
+        <a href="https://www.facebook.com/leakstudio" class="sign-in">Home</a>
+  </div>
+</header>
+<main role="main">
+<br><br>
+
+<center>
+<h3>
+There are no goodbyes for us.<br> Wherever you are,<br> you will always be in my heart.
+<br><br>
+Thank you for all the support, Farewell.</h3>
+<br>
+
+ありがとう ございます
+- 謝謝大家/谢谢大家！
+<br>
+<br>
+
+<div class="pause" onclick="togglePlay()">🔇</div>
+<div class="player">
+<audio class="audio" src="Winter-Bear-by-V.mp3" autoplay type="audio" loop=""></audio>
+</div>
+
+  <script type="text/javascript">
+    var pause = document.querySelector(".pause");
+var audio = document.querySelector(".audio");
+
+function togglePlay() {
+  if (audio.paused) {
+    audio.play();
+    pause.innerHTML = "🎵";
+  } else {
+    audio.pause();
+    pause.innerHTML = "🔇";
+    pause.style.color = " #848484";
+  }
+}
+
+  </script>
+</center>
+
+
+
+</main>
+
+  
+
+  
+</body>
+</html>
